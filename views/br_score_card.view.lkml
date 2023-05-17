@@ -7,8 +7,8 @@ view: br_score_card {
     sql: ${TABLE}.ACTIVENESS_2023 ;;
   }
 
-  dimension: all_dormant_new {
-    type: number
+  measure: all_dormant_new {
+    type: sum
     sql: ${TABLE}.ALL_DORMANT_NEW ;;
   }
 
