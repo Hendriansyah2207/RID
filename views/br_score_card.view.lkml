@@ -32,7 +32,7 @@ view: br_score_card {
     sql: ${TABLE}.BA_UL ;;
   }
 
-  dimension: ba_ul_bal {
+  measure: ba_ul_bal {
     type: number
     sql: ${TABLE}.BA_UL_BAL ;;
   }
