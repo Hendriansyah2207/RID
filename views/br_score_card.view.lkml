@@ -222,8 +222,8 @@ view: br_score_card {
     sql: ${TABLE}.LOB ;;
   }
 
-  dimension: lum {
-    type: number
+  measure: lum {
+    type: sum
     sql: ${TABLE}.LUM ;;
   }
 
@@ -367,8 +367,8 @@ view: br_score_card {
     sql: ${TABLE}.TD_BAL ;;
   }
 
-  dimension: total_cst {
-    type: number
+  measure: total_cst {
+    type: sum
     sql: ${TABLE}.TOTAL_CST ;;
   }
 
