@@ -82,7 +82,7 @@ view: br_score_card {
     sql: ${TABLE}.CA ;;
   }
 
-  dimension: ca_bal {
+  measure: ca_bal {
     type: number
     sql: ${TABLE}.CA_BAL ;;
   }
