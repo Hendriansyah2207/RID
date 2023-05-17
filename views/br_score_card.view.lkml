@@ -17,8 +17,8 @@ view: br_score_card {
     sql: ${TABLE}.AMOR ;;
   }
 
-  dimension: aum {
-    type: number
+  measure: aum {
+    type: sum
     sql: ${TABLE}.AUM ;;
   }
 
