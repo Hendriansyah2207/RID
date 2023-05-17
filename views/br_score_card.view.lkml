@@ -297,8 +297,8 @@ view: br_score_card {
     sql: ${TABLE}.PERIOD ;;
   }
 
-  dimension: ph {
-    type: number
+  measure: ph {
+    type: sum
     sql: ${TABLE}.PH ;;
   }
 
