@@ -342,8 +342,8 @@ view: br_score_card {
     sql: ${TABLE}.QUALIFIED ;;
   }
 
-  dimension: rev {
-    type: number
+  measure: rev {
+    type: sum
     sql: ${TABLE}.REV ;;
   }
 
