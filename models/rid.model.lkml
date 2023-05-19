@@ -21,4 +21,4 @@ explore: ntb_branch_card {}
 
 explore: funding_stg {}
 
-explore: br_score_card {required_access_grants:[access]}
+explore: br_score_card {}
